@@ -107,7 +107,10 @@ const showDate = (current, cHour, cDay) => {
     }
   } else {
     dayS.value = "week";
-    if (currentHours > 6 && currentHours < 9) {
+    if (currentHours < 7) {
+      changePhrase.textContent = "Sleep time";
+      imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+    } else if (currentHours > 6 && currentHours < 9) {
       changePhrase.textContent = "Morning routine time";
       imgTime.style.backgroundImage = "url(./assets/morning.jpg)";
     } else if (currentHours > 8 && currentHours < 13) {
@@ -128,9 +131,12 @@ const showDate = (current, cHour, cDay) => {
     } else if (currentHours > 20 && currentHours < 23) {
       changePhrase.textContent = "Free time";
       imgTime.style.backgroundImage = "url(./assets/free2.jpg)";
-    } else {
+    } else if (currentHours > 22) {
       changePhrase.textContent = "Sleep time";
       imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+    } else {
+      changePhrase.textContent = "";
+      hours.textContent = "00";
     }
   }
   if (current === true) {
