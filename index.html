@@ -8,12 +8,50 @@
     <title>Developper day</title>
 </head>
 <body>
+    <h1>Developper Day</h1>
+    <p class="changePhrase"></p>
     <div class="clockContainer">
         <div class="hours"></div>
+        <p>.</p>
         <div class="minutes"></div>
+        <p>.</p>
         <div class="secondes"></div>
     </div>
-    
-    <script src="index.js"></script>
-</body>
+    <div class="picture"></div>
+    <div class="optionContainer">
+        <select name="day" id="daySelect">
+            <option value="week">Week</option>
+            <option value="we1">Saturday</option>
+            <option value="we2">sunday</option>
+        </select>
+        <select name="hour" id="hourSelect">
+            <option value="0">Midnight</option>
+            <option value="1">01h00</option>
+            <option value="2">02h00</option>
+            <option value="3">03h00</option>
+            <option value="4">04h00</option>
+            <option value="5">05h00</option>
+            <option value="6">06h00</option>
+            <option value="7">07h00</option>
+            <option value="8">08h00</option>
+            <option value="9">09h00</option>
+            <option value="10">10h00</option>
+            <option value="11">11h00</option>
+            <option value="12">12h00</option>
+            <option value="13">13h00</option>
+            <option value="14">14h00</option>
+            <option value="15">15h00</option>
+            <option value="16">16h00</option>
+            <option value="17">17h00</option>
+            <option value="18">18h00</option>
+            <option value="19">19h00</option>
+            <option value="20">20h00</option>
+            <option value="21">21h00</option>
+            <option value="22">22h00</option>
+            <option value="23">23h00</option>
+        </select>
+        <button id="current">Current time</button>
+    </div>
+        <script src="index.js"></script>
+    </body>
 </html>

@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+
+@font-face {
+  font-family: "digit";
+  src: url("./fonts/DS-DIGI.TTF");
+}
+
 *,
 ::before,
 ::after {
@@ -5,3 +12,111 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./assets/bg.jpg");
+  background-size: 100%;
+  font-family: "Orbitron", sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.clockContainer {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  display: flex;
+  font-family: "digit", sans-serif;
+  font-size: 4em;
+}
+
+.picture {
+  width: 65%;
+  height: 550px;
+  border-radius: 20px;
+  border: solid black 3px;
+  background-color: darkblue;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#current {
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background: initial;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#current:hover {
+  border: black solid 3px;
+}
+
+select {
+  margin-bottom: 10px;
+  background: initial;
+  width: 90px;
+  height: 25px;
+  border-radius: 3px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.7em;
+}
+
+.optionContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .picture {
+    width: 85%;
+    height: 450px;
+  }
+
+  .optionContainer {
+    margin-top: 60px;
+  }
+
+  select {
+    background: rgba(128, 128, 128, 0.411);
+  }
+
+  #current {
+    background: rgba(128, 128, 128, 0.411);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .picture {
+    width: 85%;
+    height: 300px;
+  }
+}
+
+/* 
+THANKS TO :
+
+Markus Spiske
+La Miko
+Djordje Petrovic
+Bob WardBob Ward
+fauxels
+Oliver Sjöström
+SHVETS production
+Polina Tankilevitch 
+*/
