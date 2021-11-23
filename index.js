@@ -162,7 +162,7 @@ hourS.addEventListener("change", () => {
   }
 });
 
-dayS.addEventListener("change", (e) => {
+dayS.addEventListener("change", () => {
   if (stopRefresh === 1) {
     let c = dayS.value;
     if (c === "week") {
@@ -177,8 +177,8 @@ dayS.addEventListener("change", (e) => {
     showDate(false, a, b);
   } else {
     stopRefresh = 1;
+    let c = dayS.value;
     setTimeout(function () {
-      let c = dayS.value;
       if (c === "week") {
         b = 1;
       } else if (c === "we1") {
