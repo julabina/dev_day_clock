@@ -75,11 +75,6 @@ select {
   font-size: 0.7em;
 }
 
-option {
-  font-family: "Orbitron", sans-serif;
-  font-size: 0.7em;
-}
-
 .optionContainer {
   margin-top: 25px;
   display: flex;
