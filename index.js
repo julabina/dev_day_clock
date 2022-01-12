@@ -64,76 +64,76 @@ const showDate = (current, cHour, cDay) => {
     dayS.value = "we2";
     if (currentHours < 4) {
       changePhrase.textContent = "Party time";
-      imgTime.style.backgroundImage = "url(./assets/party.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/party.webp)";
     } else if (currentHours === 12) {
       changePhrase.textContent = "Free Time";
-      imgTime.style.backgroundImage = "url(./assets/free3.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free3.webp)";
     } else if (currentHours === 13) {
       changePhrase.textContent = "Lunch time";
-      imgTime.style.backgroundImage = "url(./assets/lunch.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/lunch.webp)";
     } else if (currentHours > 13 && currentHours < 20) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free2.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free2.webp)";
     } else if (currentHours === 20) {
       changePhrase.textContent = "Dinner time";
-      imgTime.style.backgroundImage = "url(./assets/dinner.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/dinner.webp)";
     } else if (currentHours > 20 && currentHours < 23) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free4.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free4.webp)";
     } else {
       changePhrase.textContent = "Sleep time";
-      imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/sleep.webp)";
     }
   } else if (currentDay === 6) {
     dayS.value = "we1";
     if (currentHours < 11) {
       changePhrase.textContent = "Sleep time";
-      imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/sleep.webp)";
     } else if (currentHours > 10 && currentHours < 13) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free4.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free4.webp)";
     } else if (currentHours === 13) {
       changePhrase.textContent = "Lunch time";
-      imgTime.style.backgroundImage = "url(./assets/lunch.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/lunch.webp)";
     } else if (currentHours > 13 && currentHours < 21) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free2.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free2.webp)";
     } else if (currentHours === 21) {
       changePhrase.textContent = "Dinner time";
-      imgTime.style.backgroundImage = "url(./assets/dinner.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/dinner.webp)";
     } else {
       changePhrase.textContent = "Party time";
-      imgTime.style.backgroundImage = "url(./assets/party.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/party.webp)";
     }
   } else {
     dayS.value = "week";
     if (currentHours < 7) {
       changePhrase.textContent = "Sleep time";
-      imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/sleep.webp)";
     } else if (currentHours > 6 && currentHours < 9) {
       changePhrase.textContent = "Morning routine time";
-      imgTime.style.backgroundImage = "url(./assets/morning.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/morning.webp)";
     } else if (currentHours > 8 && currentHours < 13) {
       changePhrase.textContent = "Work time";
-      imgTime.style.backgroundImage = "url(./assets/work1.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/work1.webp)";
     } else if (currentHours === 13) {
       changePhrase.textContent = "Lunch time";
-      imgTime.style.backgroundImage = "url(./assets/lunch.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/lunch.webp)";
     } else if (currentHours > 13 && currentHours < 18) {
       changePhrase.textContent = "Work time";
-      imgTime.style.backgroundImage = "url(./assets/work2.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/work2.webp)";
     } else if (currentHours > 17 && currentHours < 20) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free1.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free1.webp)";
     } else if (currentHours === 20) {
       changePhrase.textContent = "Dinner time";
-      imgTime.style.backgroundImage = "url(./assets/dinner.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/dinner.webp)";
     } else if (currentHours > 20 && currentHours < 23) {
       changePhrase.textContent = "Free time";
-      imgTime.style.backgroundImage = "url(./assets/free2.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/free2.webp)";
     } else if (currentHours > 22) {
       changePhrase.textContent = "Sleep time";
-      imgTime.style.backgroundImage = "url(./assets/sleep.jpg)";
+      imgTime.style.backgroundImage = "url(./assets/sleep.webp)";
     } else {
       changePhrase.textContent = "";
       hours.textContent = "00";
